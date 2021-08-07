@@ -1,0 +1,127 @@
+body {
+  /* background-image: url("https://wallpapercave.com/wp/wp3589868.jpg"); */
+  background-color: #EAF6F6;
+  /* background-color: #FFFFFF; */
+}
+
+hr {
+  /* NOTE:The list-style: none;e here seems to be rectangle, with a strict corners.*/
+  /*background-color: #57837B;
+  border-style: dotted;
+  display: inline-grid;
+  width: 50%;
+  height: 5X; */
+  /* NOTE: here, with the <top> value, attrebute, it's become a strate line
+     NOTE: U know? It's just the way I've found through stack-overflow, */
+  /* border:none;
+  border-top:5px dotted #512653;
+  color:#EAF6F6;
+  background-color:#EAF6F6;
+  height: 15px;
+  width: 70px; */
+  /* NOTE: I've achive the goal here, by following the instructur tips, and it looks pretty clean and specified now I geuss */
+  /* background-color: #EAF6F6; */
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #57837B;
+  border-width: 9px;
+  width: 5%;
+}
+
+h1 {
+  color: #57837B;
+}
+
+h3 {
+  color: #57837B;
+}
+
+/* a {
+  text-decoration: none;
+} */
+a {
+  outline: focus;
+  text-decoration: none;
+  padding: 2px 2px 0;
+  margin-left: 20px
+}
+
+a:link {
+  color: #57837B;
+}
+
+a:visited {
+  color: #57837B;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #EEEEEE;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #DFEEEA;
+}
+
+input {
+  border-radius: 4px;
+  background: white;
+  border-style: ridge;
+}
+
+input:hover {
+  border: 3px solid;
+  background: #EEEEEE;
+}
+
+input:focus {
+  border: 2px solid;
+  background: #EEEEEE;
+  border-color: #57837B;
+}
+
+textarea {
+  border-radius: 4px;
+  background: white;
+}
+
+textarea:hover {
+  border: 3px solid;
+  background: #EEEEEE;
+}
+
+textarea:focus {
+  border: 2px solid;
+  background: #EEEEEE;
+  border-color: #57837B;
+
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover
+li a:hover {
+  background-color: #555;
+  color: white;
+} */
+/* textarea {
+  display: flex;
+  justify-content: space-between;
+} */
+img {
+  color: red;
+}
